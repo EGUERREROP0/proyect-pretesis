@@ -1,0 +1,37 @@
+name: incidentes
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.1.0   # Agregada esta línea para incluir la librería http
+  image_picker: ^0.8.5+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/incidentes/incidente1.png
+    - assets/images/incidentes/incidente2.png
+    - assets/images/login/fondo.png
+    - assets/images/logo/logo.png
+    - assets/images/splash/splash.png
+
+  fonts:
+    - family: Roboto-Regular
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+    - family: Sanseriffic
+      fonts:
+        - asset: assets/fonts/Sanseriffic.otf
