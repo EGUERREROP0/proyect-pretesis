@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'pages/splash/splash_page.dart';
 import 'pages/login/login_page.dart';
-import 'components/navbar.dart'; 
+import 'components/navbar.dart';
 import 'pages/reportar/report_incident_page.dart';
 import 'pages/reportar/incident_history_page.dart';
 import 'pages/notificaciones/notifications_page.dart';

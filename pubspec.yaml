@@ -1,17 +1,18 @@
 name: incidentes
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.5.3
+  sdk: ">=3.5.3 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  http: ^1.1.0   # Agregada esta línea para incluir la librería http
-  image_picker: ^0.8.5+3
+  http: ^1.1.0 # Librería para solicitudes HTTP
+  image_picker: ^1.0.0 # Para seleccionar imágenes (actualizado)
+  shared_preferences: ^2.2.0 # Versión más reciente compatible
 
 dev_dependencies:
   flutter_test:
@@ -21,6 +22,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+  # Archivos de recursos (imágenes)
   assets:
     - assets/images/incidentes/incidente1.png
     - assets/images/incidentes/incidente2.png
@@ -28,6 +30,7 @@ flutter:
     - assets/images/logo/logo.png
     - assets/images/splash/splash.png
 
+  # Fuentes personalizadas
   fonts:
     - family: Roboto-Regular
       fonts:
